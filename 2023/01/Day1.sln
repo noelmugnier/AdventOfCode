@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trebuchet.Tests", "Trebuchet.Tests\Trebuchet.Tests.csproj", "{7182485D-2E81-4526-A16D-94C51889A116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trebuchet.App", "Trebuchet.App\Trebuchet.App.csproj", "{3A0FC5DF-CC09-4A07-939A-AAB601628588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7182485D-2E81-4526-A16D-94C51889A116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7182485D-2E81-4526-A16D-94C51889A116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7182485D-2E81-4526-A16D-94C51889A116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7182485D-2E81-4526-A16D-94C51889A116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0FC5DF-CC09-4A07-939A-AAB601628588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0FC5DF-CC09-4A07-939A-AAB601628588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0FC5DF-CC09-4A07-939A-AAB601628588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0FC5DF-CC09-4A07-939A-AAB601628588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
