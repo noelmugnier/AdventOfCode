@@ -16,10 +16,10 @@ public class ScratchCardGameResolver
     private int GetScratchCardsCount()
     {
         var scratchCardsGroupedByIdCount = new Dictionary<int, int>();
-
         for (var scratchCardsIndex = 0; scratchCardsIndex < _scratchCards.Count; scratchCardsIndex++)
             DiscoverMatchingCardsTree(scratchCardsGroupedByIdCount, scratchCardsIndex,
                 _scratchCards[scratchCardsIndex].MatchingNumbers.Length);
+
 
         return scratchCardsGroupedByIdCount.Sum(c => c.Value) + _scratchCards.Count;
     }
